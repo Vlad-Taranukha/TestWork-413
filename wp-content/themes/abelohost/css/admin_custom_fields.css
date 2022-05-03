@@ -1,0 +1,19 @@
+#publish_btn,
+#reset_test {
+    margin-right: 10px;
+    background-color: #2271B1;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 2px;
+    border: 2px solid transparent;
+    outline: none;
+}
+
+#publish_btn:hover,
+#reset_test:hover {
+    cursor: pointer;
+    background: none;
+    border: 2px solid #2271b1;
+    color: #2271b1;
+    transition: all 0.25s;
+}

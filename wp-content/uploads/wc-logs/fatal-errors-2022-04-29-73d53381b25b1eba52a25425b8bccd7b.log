@@ -1,0 +1,19 @@
+2022-04-29T10:25:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function woocommerce_form_field(), 0 passed in W:\domains\abelohost.test\wp-content\themes\abelohost\functions.php on line 31 and at least 2 expected in W:\domains\abelohost.test\wp-content\plugins\woocommerce\includes\wc-template-functions.php:2726
+Stack trace:
+#0 W:\domains\abelohost.test\wp-content\themes\abelohost\functions.php(31): woocommerce_form_field()
+#1 W:\domains\abelohost.test\wp-admin\includes\template.php(1395): test_metabox_callback()
+#2 W:\domains\abelohost.test\wp-admin\edit-form-advanced.php(688): do_meta_boxes()
+#3 W:\domains\abelohost.test\wp-admin\post-new.php(75): require('W:\\domains\\abel...')
+#4 {main}
+  thrown in W:\domains\abelohost.test\wp-content\plugins\woocommerce\includes\wc-template-functions.php on line 2726
+
+2022-04-29T10:30:46+00:00 CRITICAL syntax error, unexpected ')' in W:\domains\abelohost.test\wp-content\themes\abelohost\functions.php on line 37
+
+2022-04-29T20:44:29+00:00 CRITICAL Uncaught Error: Call to undefined function get_post_meta_by_id() in W:\domains\abelohost.test\wp-content\themes\abelohost\woocommerce\archive-product.php:59
+Stack trace:
+#0 W:\domains\abelohost.test\wp-includes\template-loader.php(106): include()
+#1 W:\domains\abelohost.test\wp-blog-header.php(19): require_once('W:\\domains\\abel...')
+#2 W:\domains\abelohost.test\index.php(17): require('W:\\domains\\abel...')
+#3 {main}
+  thrown in W:\domains\abelohost.test\wp-content\themes\abelohost\woocommerce\archive-product.php on line 59
+

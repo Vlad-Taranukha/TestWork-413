@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/*
+Theme Name: Abelohost test
+Theme URI: домашняя-страница-темы
+Description: краткое-описание-темы
+Author: ваше-имя
+Author URI: ваш-URI
+Version: 1.0
+.
+Развёрнутое описание темы/Лицензия-если-нужно.
+.
+*/
+.custom_fields {
+  margin-top: 10px;
+  display: inline-block;
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 10px;
+}
+.custom_fields h2 {
+  font-size: 18px;
+  text-align: center;
+}
+.custom_fields p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.custom_fields p:last-of-type {
+  margin-bottom: 0;
+}
+
+#headerimg h1 {
+  text-align: center;
+}
+#headerimg h1 a {
+  text-decoration: none;
+}
+#headerimg .description {
+  text-align: center;
+}
+
+.woocommerce ul.products li.product .price .woocommerce-Price-amount, .woocommerce-Price-amount {
+  color: #84CA08;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+.woocommerce ul.products li.product .price .woocommerce-Price-amount .woocommerce-Price-currencySymbol, .woocommerce-Price-amount .woocommerce-Price-currencySymbol {
+  font-size: 1.75rem;
+}
+.woocommerce ul.products li.product .price .woocommerce-Price-amount .woocommerce-Price-currencySymbol::after, .woocommerce-Price-amount .woocommerce-Price-currencySymbol::after {
+  content: " ";
+}
+
+.woocommerce a.button.add_to_cart_button {
+  background: #84CA08;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  border: 2px solid transparent;
+}
+.woocommerce a.button.add_to_cart_button:hover {
+  background: #fff;
+  color: #84CA08;
+  border: 2px solid #84CA08;
+  transition: all 0.25s;
+}
+
+.woocommerce div.product form.cart .button.single_add_to_cart_button {
+  background: #84CA08;
+  color: #fff;
+}
+
+#footer p {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
